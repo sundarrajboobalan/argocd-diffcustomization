@@ -11,7 +11,7 @@ spec:
   source: 
     path: guestbook-with-sub-directories
     repoURL: "https://github.com/sundarrajboobalan/argocd-diffcustomization.git"
-    targetRevision: master
+    targetRevision: Head
     directory:
       recurse: true
   syncPolicy:
